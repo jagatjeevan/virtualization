@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jagatjeevan/virtualization.svg?branch=master)](https://travis-ci.org/jagatjeevan/virtualization)
+
 ### Virtualisation
 This is a small repo for creating the virtualizing the DOM to handle a long list.
 

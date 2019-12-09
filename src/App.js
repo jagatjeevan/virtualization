@@ -67,6 +67,20 @@ const App = () => {
 
   return (
     <div className="main-contanier">
+      <h2>
+        <u>Virtualizing DOM:</u>
+      </h2>
+      <p>
+        If you have a longer list to display, it would be very costly to dump
+        all the data to DOM as the browser have to do a lot of work to put it on
+        DOM like having all the styles, attach event listener. The DOM may hang
+        if the data is quite huge.
+      </p>
+      <p>
+        You can inspect the element of list and check how the dom only changes
+        the ones which are changing keeping the DOM elements same. In this
+        example, we have used React memoisation to be more performant.
+      </p>
       <div
         className="scroll-container"
         id="mainContainer"
